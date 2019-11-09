@@ -1,0 +1,7 @@
+C:\Users\aslan.DESKTOP-T1ACL15\source\repos\Multifabriken\Multifabriken\bin\Debug\Multifabriken.exe.config
+C:\Users\aslan.DESKTOP-T1ACL15\source\repos\Multifabriken\Multifabriken\bin\Debug\Multifabriken.exe
+C:\Users\aslan.DESKTOP-T1ACL15\source\repos\Multifabriken\Multifabriken\bin\Debug\Multifabriken.pdb
+C:\Users\aslan.DESKTOP-T1ACL15\source\repos\Multifabriken\Multifabriken\obj\Debug\Multifabriken.csprojAssemblyReference.cache
+C:\Users\aslan.DESKTOP-T1ACL15\source\repos\Multifabriken\Multifabriken\obj\Debug\Multifabriken.csproj.CoreCompileInputs.cache
+C:\Users\aslan.DESKTOP-T1ACL15\source\repos\Multifabriken\Multifabriken\obj\Debug\Multifabriken.exe
+C:\Users\aslan.DESKTOP-T1ACL15\source\repos\Multifabriken\Multifabriken\obj\Debug\Multifabriken.pdb
