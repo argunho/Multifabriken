@@ -8,30 +8,24 @@ namespace Multifabriken
 {
     class HelpMethods
     {
-        public HelpMethods()
-        {
+        public HelpMethods() { }
 
-        }
-
-        public string ReturnName(string str)
+        // Method to return answer
+        public string ReturnAnswer(string str)
         {
             var input = String.Empty;
 
-            while (true)
+            while (true) // To check input characters
             {
                 input = Console.ReadLine();
                 if (input.Length > 1) break;
-                ErrorMessage(" Ursäkta, vi behöver veta korrekta " + str + "  ....");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(" Ursäkta, vi behöver veta korrekta " + str + "  ...."); // If wrong input, show error message
             }
-            return input.ToString();
+            return input.ToString(); // Return correct inputted word
         }
 
-        public void ErrorMessage(string str)
-        {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine(str);
-        }
-
+        // Return order info
         public void Order(string str01, string str02, string str03, string str04 = null)
         {
             Console.BackgroundColor = ConsoleColor.DarkCyan;
@@ -47,7 +41,7 @@ namespace Multifabriken
                 Console.WriteLine(" " + str04);
 
             Console.ForegroundColor = ConsoleColor.DarkBlue;
-            Console.WriteLine("\n\n För att återgå till Menun, tryck R. För att avsluta tryck på någon knapp ...".ToUpper());
+            Console.WriteLine("\n\n För att återgå till Menun, tryck R. För att avsluta tryck på någon knapp ...".ToUpper());// Displaying message
         }
     }
 }

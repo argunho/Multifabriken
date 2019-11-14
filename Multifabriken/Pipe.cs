@@ -18,11 +18,11 @@ namespace Multifabriken
         public void ManageOrder()
         {
             Console.Write(" Diameter? ");
-            diameter = help.ReturnName("diameter");
+            diameter = help.ReturnAnswer("diameter"); // Using a method from HelpMethods to get correct inputted word
             Console.Write(" Längd? ");
-            length = help.ReturnName("längd");
+            length = help.ReturnAnswer("längd"); // Using a method from HelpMethods to get correct inputted word
 
-            help.Order("Rör", "Diameter: " + diameter, "Längd: " + length);
+            help.Order("Rör", "Diameter: " + diameter, "Längd: " + length); // Using method from HelpMethods to show order info
         }
     }
 }

@@ -15,14 +15,14 @@ namespace Multifabriken
 
         public Candy(){}
 
-        public void ManageOrder()
+        public void ManageOrder() // If user's choise is Candy, this method runs i Program class
         {
-            Console.Write(" Smak? ");
-            taste = help.ReturnName("smak");
+            Console.Write(" Smak? "); // Ask about taste
+            taste = help.ReturnAnswer("smak"); // Using a method from HelpMethods to get correct inputted word
             Console.Write(" Antal? ");
-            count = help.ReturnName("antal");
+            count = help.ReturnAnswer("antal"); // Using a method from HelpMethods to get correct inputted word
 
-            help.Order("Godis", "Smak: " + taste, "Antal: " + count);
+            help.Order("Godis", "Smak: " + taste, "Antal: " + count); // Using method from HelpMethods to show order info
         }
 
 

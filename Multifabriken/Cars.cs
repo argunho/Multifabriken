@@ -19,13 +19,13 @@ namespace Multifabriken
         public void ManageOrder()
         {
             Console.Write(" Billmärke? ");
-            model = help.ReturnName("bilmärke");
+            model = help.ReturnAnswer("bilmärke"); // Using a method from HelpMethods to get correct inputted word
             Console.Write(" Registreringsnummer? ");
-            reg_number = help.ReturnName("registernummer");
+            reg_number = help.ReturnAnswer("registernummer"); // Using a method from HelpMethods to get correct inputted word
             Console.Write(" Färg? ");
-            color = help.ReturnName("color");
+            color = help.ReturnAnswer("color"); // Using a method from HelpMethods to get correct inputted word
 
-            help.Order("Bilen", "Bilmärke: " + model, "registernummer: " + reg_number, "Färg: " + color);
+            help.Order("Bilen", "Bilmärke: " + model, "registernummer: " + reg_number, "Färg: " + color); // Using method from HelpMethods to show order info
         }
     }
 }
