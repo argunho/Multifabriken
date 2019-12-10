@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Multifabriken
 {
-    class Cars
+    public class Cars
     {
         private string model;
         private string reg_number;
@@ -14,7 +12,7 @@ namespace Multifabriken
 
         HelpMethods help = new HelpMethods();
 
-        public Cars(){}
+        public Cars() { }
 
         public void ManageOrder()
         {

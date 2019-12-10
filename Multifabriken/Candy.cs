@@ -1,19 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Multifabriken
 {
-    class Candy
+    public class Candy
     {
         private string taste;
         private string count;
 
         HelpMethods help = new HelpMethods();
 
-        public Candy(){}
+        public Candy() { }
 
         public void ManageOrder() // If user's choise is Candy, this method runs i Program class
         {
@@ -24,7 +22,5 @@ namespace Multifabriken
 
             help.Order("Godis", "Smak: " + taste, "Antal: " + count); // Using method from HelpMethods to show order info
         }
-
-
     }
 }

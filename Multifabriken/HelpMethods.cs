@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Multifabriken
 {
-    class HelpMethods
+    public class HelpMethods
     {
         public HelpMethods() { }
 
@@ -21,6 +19,8 @@ namespace Multifabriken
                 if (input.Length > 1) break;
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(" Ursäkta, vi behöver veta korrekta " + str + "  ...."); // If wrong input, show error message
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.Write(" Var vänlig prova igen!");
             }
             return input.ToString(); // Return correct inputted word
         }

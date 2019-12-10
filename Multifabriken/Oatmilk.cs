@@ -1,24 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Multifabriken
 {
-    class Oatmilk
+    public class Oatmilk
     {
-
         private string fat_content;
         private string liter_amount;
 
         HelpMethods help = new HelpMethods();
 
-        public Oatmilk(){}
+        public Oatmilk() { }
 
         public void ManageOrder()
         {
-            Console.Write(" Fetthalt? "); 
+            Console.Write(" Fetthalt? ");
             fat_content = help.ReturnAnswer("fethalt"); // Using a method from HelpMethods to get correct inputted word
             Console.Write(" Liter mängd? ");
             liter_amount = help.ReturnAnswer("liter mängd"); // Using a method from HelpMethods to get correct inputted word

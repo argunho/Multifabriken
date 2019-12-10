@@ -1,10 +1,5 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Multifabriken
 {
@@ -19,7 +14,7 @@ namespace Multifabriken
             Oatmilk milk = new Oatmilk();
             HelpMethods help = new HelpMethods();
 
-            List<string> menu = new List<string> { "Bilar", "Godis", "Rör", "Havremjölk" }; // Productlist
+            List<string> menu = new List<string> { "Bilar", "Godis", "Rör", "Havremjölk", "Avsluta" }; // Productlist
 
             var run = true;
 
@@ -47,13 +42,35 @@ namespace Multifabriken
                 Console.Write(" Ditt val: "); // Plats for input
 
                 var number = 0;
+                var input = 0;
                 while (true)// while (int.TryParse(Console.ReadLine(), out casNum)
                 {
-                    if (int.TryParse(Console.ReadLine(), out number) && number > 0 && number < 5) break; // checking on the selected
+                    if (int.TryParse(Console.ReadLine(), out number) && number > 0 && number < 6) break; // checking on the selected
+
+                    if (input == 3)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Cyan; // change of color
+                        Console.WriteLine("\n Ta det lungt och försök igen senare ..... \n Programmet avslutas.");
+                        System.Threading.Thread.Sleep(2000);
+                        Environment.Exit(0);
+                    }
+
                     Console.ForegroundColor = ConsoleColor.Red; // change of color
-                    Console.WriteLine(" Tryck rätt nummer av Produktlista ... ".ToUpper()); // Error message
+                    Console.WriteLine(" Tryck rätt nummer av Produktlista ... ".ToUpper()); // Error message                
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write(" Var vänlig prova igen!");
                     Console.Write(" ");
+                    input += 1;
                 }
+
+                if (number == 5)
+                {
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                    Console.WriteLine("\n Obs! Du valt att avsluta .... ");
+                    System.Threading.Thread.Sleep(1500); // Pause 1.5 sec before it will be closed
+                    Environment.Exit(0);
+                }
+
 
                 if (number > 0)
                 {
@@ -103,14 +120,3 @@ namespace Multifabriken
         }
     }
 }
-//if (Console.ReadLine() == "y")
-//{
-//    //var fileName = Assembly.GetExecutingAssembly().Location;
-//    //System.Diagnostics.Process.Start(fileName);
-
-//    //Start process, friendly name is something like MyApp.exe (from current bin directory)
-//    System.Diagnostics.Process.Start(System.AppDomain.CurrentDomain.FriendlyName);
-
-//    //Close the current process
-//    
-//}

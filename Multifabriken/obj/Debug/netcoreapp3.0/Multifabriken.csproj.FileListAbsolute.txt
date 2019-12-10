@@ -1,0 +1,11 @@
+C:\Users\aslan.DESKTOP-T1ACL15\Documents\Min studie\Exercises\Multifabriken\Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.csprojAssemblyReference.cache
+C:\Users\aslan.DESKTOP-T1ACL15\Documents\Min studie\Exercises\Multifabriken\Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.AssemblyInfoInputs.cache
+C:\Users\aslan.DESKTOP-T1ACL15\Documents\Min studie\Exercises\Multifabriken\Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.AssemblyInfo.cs
+C:\Users\aslan.DESKTOP-T1ACL15\Documents\Min studie\Exercises\Multifabriken\Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.exe
+C:\Users\aslan.DESKTOP-T1ACL15\Documents\Min studie\Exercises\Multifabriken\Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.deps.json
+C:\Users\aslan.DESKTOP-T1ACL15\Documents\Min studie\Exercises\Multifabriken\Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.runtimeconfig.json
+C:\Users\aslan.DESKTOP-T1ACL15\Documents\Min studie\Exercises\Multifabriken\Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.runtimeconfig.dev.json
+C:\Users\aslan.DESKTOP-T1ACL15\Documents\Min studie\Exercises\Multifabriken\Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.dll
+C:\Users\aslan.DESKTOP-T1ACL15\Documents\Min studie\Exercises\Multifabriken\Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.pdb
+C:\Users\aslan.DESKTOP-T1ACL15\Documents\Min studie\Exercises\Multifabriken\Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.dll
+C:\Users\aslan.DESKTOP-T1ACL15\Documents\Min studie\Exercises\Multifabriken\Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.pdb
