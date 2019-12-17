@@ -41,7 +41,7 @@ namespace Multifabriken
                 Console.WriteLine(" " + str04);
 
             Console.ForegroundColor = ConsoleColor.DarkBlue;
-            Console.WriteLine("\n\n För att återgå till Menun, tryck R. För att avsluta tryck på någon knapp ...".ToUpper());// Displaying message
+            Console.WriteLine("\n\n För att återgå till Menyn, tryck R. För att avsluta tryck på någon knapp ...".ToUpper());// Displaying message
         }
     }
 }
