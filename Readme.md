@@ -1,4 +1,4 @@
-# Multifabriken (C#, Console applikation)
+# Studieuppgift: Multifabriken (C#, Console applikation)
 
 Projekten innehåller 5 klasser utöver Program klass, 4 av dessa såsom Cars (Bilar), Candy (Godis), Pipe (Rör) och OatMilk (HavreMjölk) är krav att göra klart uppgiften.
 Den femte klassen som var nämnt av mig som HelpMethods, var skapat att undvika onödiga upprepande kod. Denna klassen innehåller två metod vilka används i alla andra 4 klasser.
